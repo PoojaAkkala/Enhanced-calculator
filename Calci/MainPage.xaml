@@ -21,70 +21,64 @@
                FontSize="64" FontAttributes="Bold" Text="0"
                HorizontalTextAlignment="End"
                VerticalTextAlignment="End"
-               
                LineBreakMode="NoWrap" Grid.ColumnSpan="4" />
 
         <BoxView BackgroundColor="{StaticResource Gray500}" HeightRequest="1"
                  Grid.Row="0" VerticalOptions="End"
                  Grid.ColumnSpan="4"
                  />
-
-        <Button Text="(" Grid.Row="1" Grid.Column="0"
-               Clicked="OnSelectNumber" BackgroundColor ="Purple" />
-        <Button Text=")" Grid.Row="1" Grid.Column="1"
-               Clicked="OnSelectNumber" BackgroundColor="Purple" />
-        <Button Text="Sqrt" Grid.Row="1" Grid.Column="2"
-               Clicked="OnSqRt" BackgroundColor="Purple"/>
-        <Button Text="Mod" Grid.Row="1" Grid.Column="3"
-               Clicked="OnModulus" BackgroundColor="Purple"/>
+        <Button Text="EC" Grid.Row="1" Grid.Column="0"
+               Clicked= "EnchancedCalculator"  TextColor="Black" BackgroundColor ="LightGreen"/>
+        <Button Text="About Page" Grid.Row="1" Grid.Column="1"
+               Clicked= "AboutPg"  TextColor="Black" BackgroundColor ="LightGreen"/>
 
 
         <Button Text="C" Grid.Row="2" Grid.Column="0"
-               Clicked="OnClear" BackgroundColor="Purple"/>
+               Clicked="OnClear" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="+/-" Grid.Row="2" Grid.Column="1"
-               Clicked="OnNegative" BackgroundColor="Purple"/>
+               Clicked="OnNegative" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="%" Grid.Row="2" Grid.Column="2"
-               Clicked="OnPercentage" BackgroundColor="Purple"/>
+               Clicked="OnPercentage" TextColor="Black" BackgroundColor ="LightGreen"/>
 
         <Button Text="7" Grid.Row="3" Grid.Column="0"
-               Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+               Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="8" Grid.Row="3" Grid.Column="1"
-               Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+               Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="9" Grid.Row="3" Grid.Column="2"
-               Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+               Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
 
         <Button Text="4" Grid.Row="4" Grid.Column="0"
-              Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+              Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="5" Grid.Row="4" Grid.Column="1"
-              Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+              Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="6" Grid.Row="4" Grid.Column="2"
-              Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+              Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
 
         <Button Text="1" Grid.Row="5" Grid.Column="0"
-              Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+              Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="2" Grid.Row="5" Grid.Column="1"
-              Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+              Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="3" Grid.Row="5" Grid.Column="2"
-              Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+              Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
 
         <Button Text="00" Grid.Row="6" Grid.Column="0" 
-              Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+              Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="0" Grid.Row="6" Grid.Column="1" 
-              Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+              Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="." Grid.Row="6" Grid.Column="2" 
-              Clicked="OnSelectNumber" BackgroundColor="Purple"/>
+              Clicked="OnSelectNumber" TextColor="Black" BackgroundColor ="LightGreen"/>
 
         <Button Text="÷" Grid.Row="2" Grid.Column="3"
-               Clicked="OnSelectOperator" BackgroundColor="Purple"/>
+               Clicked="OnSelectOperator" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="×" Grid.Row="3" Grid.Column="3"
-               Clicked="OnSelectOperator" BackgroundColor="Purple"/>
+               Clicked="OnSelectOperator" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="-" Grid.Row="4" Grid.Column="3"
-               Clicked="OnSelectOperator" BackgroundColor="Purple"/>
+               Clicked="OnSelectOperator" TextColor="Black" BackgroundColor ="LightGreen"/>
         <Button Text="+" Grid.Row="5" Grid.Column="3"
-               Clicked="OnSelectOperator" BackgroundColor="Purple"/>
+               Clicked="OnSelectOperator" TextColor="Black" BackgroundColor ="LightGreen"/>
 
         <Button Text="=" Grid.Row="6" Grid.Column="3" 
-               Clicked="OnCalculate" BackgroundColor="Purple"/>
+               Clicked="OnCalculate" TextColor="Black" BackgroundColor ="LightGreen"/>
 
 
     </Grid>

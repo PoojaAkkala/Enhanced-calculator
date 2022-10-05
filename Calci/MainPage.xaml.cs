@@ -144,5 +144,13 @@ public partial class MainPage : ContentPage
             OnCalculate(this, null);
         }
     }
+    void EnchancedCalculator(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Enhancedcalc());
+    }
+    void AboutPg(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new AboutPage());
+    }
 
 }

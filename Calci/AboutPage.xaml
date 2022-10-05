@@ -5,8 +5,15 @@
              Title="AboutPage">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            FontSize="Header"
+            Text="Team Members Names"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Label 
+            FontSize="Medium"
+            Text="Pooja Akkala &#xA; &#xA; Sreeja Vuyyala"
+            Padding=" 100"/>
     </VerticalStackLayout>
+    
 </ContentPage>
