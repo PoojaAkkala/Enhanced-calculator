@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DHEERAJ\\source\\repos\\Calci\\Calci\\Calci.csproj": {}
+    "C:\\Users\\DHEERAJ\\OneDrive\\Desktop\\call\\Calci\\Calci\\Calci\\Calci.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DHEERAJ\\source\\repos\\Calci\\Calci\\Calci.csproj": {
+    "C:\\Users\\DHEERAJ\\OneDrive\\Desktop\\call\\Calci\\Calci\\Calci\\Calci.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DHEERAJ\\source\\repos\\Calci\\Calci\\Calci.csproj",
+        "projectUniqueName": "C:\\Users\\DHEERAJ\\OneDrive\\Desktop\\call\\Calci\\Calci\\Calci\\Calci.csproj",
         "projectName": "Calci",
-        "projectPath": "C:\\Users\\DHEERAJ\\source\\repos\\Calci\\Calci\\Calci.csproj",
+        "projectPath": "C:\\Users\\DHEERAJ\\OneDrive\\Desktop\\call\\Calci\\Calci\\Calci\\Calci.csproj",
         "packagesPath": "C:\\Users\\DHEERAJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DHEERAJ\\source\\repos\\Calci\\Calci\\obj\\",
+        "outputPath": "C:\\Users\\DHEERAJ\\OneDrive\\Desktop\\call\\Calci\\Calci\\Calci\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
